@@ -1,0 +1,21 @@
+{
+  "name": "homework-submit",
+  "version": "0.0.1",
+  "description": "Homework Submit Tool",
+  "main": "web.js",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Len Payne",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.x",
+    "mongodb": "1.x",
+    "body-parser": "1.x",
+    "scrypt": "3.x",
+    "MD5": "1.x"
+  }
+}
