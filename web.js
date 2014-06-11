@@ -60,3 +60,12 @@ app.get(/^\/([\w\-\.\/]*\.(?:html|css|js|gif|png|jpeg|jpg|ico|pdf))$/, function(
       res.status(404).sendfile(path.join('public', '404.html'));
   })
 });
+
+//== Begin Application Execution Section ==
+//=========================================
+
+//== Load the App and Listen on the Correct Port
+var port = Number(process.env.PORT || 5000);
+app.listen(port, function() {
+  console.log("Listening on " + port);
+});
