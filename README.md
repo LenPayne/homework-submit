@@ -50,6 +50,8 @@ Technical Tools
     * [PMD](http://pmd.sourceforge.net/)
     * [OCLint](http://oclint.org/)
     * [ocstyle](https://github.com/Cue/ocstyle)
+* Use Stanford Plagiarism Checking
+	* [MOSS](http://theory.stanford.edu/~aiken/moss/)
 
 HTTPS Web Service API
 =====================
